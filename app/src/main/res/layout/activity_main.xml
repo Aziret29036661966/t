@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_20220303_212400"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/ff"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/game"
+        android:text="↓"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/t"
+        android:drawableStart="@drawable/ddd"
+        android:text="Log in with Facebook     "
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rt"
+        android:layout_width="350sp"
+        android:layout_height="50dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="700dp"
+        android:background="@drawable/t"
+        android:backgroundTint="@color/blue"
+        android:text="Game now "
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="650dp"
+        android:text="UP with Email"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds" />
+
+
+    <TextView
+        android:id="@+id/ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="LOG  IN"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
